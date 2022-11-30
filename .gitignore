@@ -1,4 +1,3 @@
-dist/
 account/__pycache__/*
 .pytest_cache/
 account/external/__pycache__/*
