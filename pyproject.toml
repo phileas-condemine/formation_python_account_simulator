@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "formation_python_account_simulator"
+version = "0.0.1"
+description = "Implementation of Banking Transactions."
+authors = ["Philéas Condemine <phileas.condemine@groupe-mma.fr>"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "account"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[[tool.poetry.source]]
+name = "github"
+url = "https://github.com/phileas-condemine/formation_python_account_simulator"
+default = false
+secondary = false
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
